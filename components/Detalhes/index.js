@@ -30,6 +30,7 @@ export default function Detalhes(props) {
           <View style={estilo.info}>
             <Text style={estilo.titulo}>{vinho.nome} {vinho.nome}</Text>
             <Text style={estilo.descricao}>{`Descrição ${vinho.descricao}`}</Text>
+            <Text style={estilo.titulo}>{`Preço ${vinho.preco}`}</Text>
           </View>
       </View>
     </View>
